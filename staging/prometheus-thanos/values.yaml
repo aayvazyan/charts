@@ -1,3 +1,5 @@
+prometheus-operator:
+# Here goes the values from https://github.com/mesosphere/charts/tree/master/staging/prometheus-operator, which is a subchart of this chart.
 thanos:
   query:
     enabled: false
