@@ -1,0 +1,13 @@
+prometheus-operator:
+  enabled: true
+  # Here goes the values from https://github.com/mesosphere/charts/tree/master/staging/prometheus-operator, which is a subchart of this chart.
+thanos:
+  enabled: false
+  query:
+    enabled: false
+  store:
+    enabled: false
+  compact:
+    enabled: false
+  bucket:
+    enabled: false

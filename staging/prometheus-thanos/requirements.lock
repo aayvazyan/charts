@@ -1,0 +1,9 @@
+dependencies:
+- name: prometheus-operator
+  repository: https://mesosphere.github.io/charts/staging/
+  version: 8.7.4
+- name: thanos
+  repository: https://kubernetes-charts.banzaicloud.com/
+  version: 0.3.18
+digest: sha256:7c7d6721c890a492228cc2349d35f9e22a83ed0f50dc103e3cc749b059ff1a3b
+generated: "2020-03-21T18:50:52.501547-04:00"
