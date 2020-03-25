@@ -25,4 +25,3 @@ The following tables list the configurable parameters of the prometheus-operator
 | `thanos.compact.enabled` | Specifies whether the [Compact](https://github.com/thanos-io/thanos/blob/master/docs/components/compact.md) component of Thanos will be deployed. `true`/`false`| `false` |
 | `thanos.bucket.enabled` | Specifies whether the [Bucket](https://github.com/thanos-io/thanos/blob/master/docs/components/bucket.md) component of Thanos will be deployed. `true`/`false` | `false` |
 | `thanos.VALUE` | Any of the configuration parameters of the [Thanos]((https://github.com/banzaicloud/banzai-charts/tree/master/thanos)) subchart can be used in place of the `VALUE`| |
-
