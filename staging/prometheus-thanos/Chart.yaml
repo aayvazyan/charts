@@ -12,7 +12,6 @@ keywords:
 maintainers:
 - name: branden
 - name: gracedo
-- name: aayvazyan
 name: prometheus-thanos
 sources:
 - https://github.com/coreos/kube-prometheus
